@@ -1,0 +1,90 @@
+.steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    position: relative;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 24px;
+    position: relative;
+}
+
+.stepNum {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(232, 21, 27, 0.08);
+    letter-spacing: -0.05em;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
+    pointer-events: none;
+}
+
+.connector {
+    position: absolute;
+    top: 68px;
+    right: -24px;
+    width: 48px;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--grey-border) 0, var(--grey-border) 6px, transparent 6px, transparent 12px);
+    z-index: 1;
+}
+
+html[dir="rtl"] .connector {
+    right: auto;
+    left: -24px;
+}
+
+.stepIcon {
+    font-size: 2.4rem;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: var(--bg-soft);
+    border: 2px solid var(--grey-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.stepTitle {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+}
+
+.stepDesc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-width: 220px;
+}
+
+@media (max-width: 600px) {
+    .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .connector {
+        display: none;
+    }
+
+    .step {
+        border-bottom: 1px solid var(--grey-border);
+    }
+
+    .step:last-child {
+        border-bottom: none;
+    }
+}

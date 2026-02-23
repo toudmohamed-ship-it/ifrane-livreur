@@ -1,0 +1,83 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: var(--white);
+    border: 2px solid var(--red);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    max-width: 440px;
+    width: 100%;
+    box-shadow: var(--shadow-red);
+}
+
+.cardTop {
+    padding: 36px 36px 28px;
+    text-align: center;
+    border-bottom: 1px solid var(--grey-border);
+}
+
+.cardBadge {
+    display: inline-block;
+    background: rgba(232, 21, 27, 0.08);
+    color: var(--red);
+    border-radius: var(--radius-full);
+    padding: 4px 14px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 16px;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--red);
+    margin-bottom: 8px;
+    letter-spacing: -0.03em;
+}
+
+.cardDesc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.features {
+    padding: 28px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.featureCheck {
+    color: var(--green-wa);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.note {
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--grey-light);
+    max-width: 480px;
+    margin: 0 auto;
+}

@@ -1,0 +1,281 @@
+.hero {
+    position: relative;
+    background: linear-gradient(135deg, #fff 0%, #fff5f5 50%, #fff 100%);
+    padding: 120px 0 80px;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(232, 21, 27, 0.07) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.content {
+    max-width: 560px;
+}
+
+.h1 {
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: var(--dark);
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: var(--red);
+    display: block;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 36px;
+    line-height: 1.7;
+    max-width: 460px;
+}
+
+.ctas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.badges {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.trustBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.trustIcon {
+    font-size: 1rem;
+}
+
+/* Visual card */
+.visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visualCard {
+    background: var(--white);
+    border: 1px solid var(--grey-border);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    box-shadow: var(--shadow-lg);
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+}
+
+.visualTop {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.riderEmoji {
+    font-size: 2.8rem;
+    animation: ride 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes ride {
+    from {
+        transform: translateX(0) rotate(-3deg);
+    }
+
+    to {
+        transform: translateX(8px) rotate(3deg);
+    }
+}
+
+.visualBubble {
+    background: var(--bg-soft);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    flex: 1;
+}
+
+.bubbleText {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 6px;
+}
+
+.bubbleDots {
+    display: flex;
+    gap: 4px;
+}
+
+.bubbleDots span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--red);
+    animation: dot 1.2s infinite;
+}
+
+.bubbleDots span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.bubbleDots span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes dot {
+
+    0%,
+    80%,
+    100% {
+        opacity: 0.2;
+        transform: scale(0.8);
+    }
+
+    40% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.visualStats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.stat strong {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--dark);
+}
+
+.stat span {
+    font-size: 0.72rem;
+    color: var(--grey-light);
+    text-align: center;
+}
+
+.statDivider {
+    width: 1px;
+    height: 32px;
+    background: var(--grey-border);
+}
+
+.deliveryBar {
+    height: 6px;
+    background: var(--grey-border);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.deliveryProgress {
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(90deg, var(--green-wa), var(--red));
+    border-radius: var(--radius-full);
+    animation: progress 2s ease-in-out infinite alternate;
+}
+
+@keyframes progress {
+    from {
+        width: 55%;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+
+.deliveryLabel {
+    font-size: 0.78rem;
+    color: var(--grey-light);
+    text-align: center;
+}
+
+/* Wave */
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 0;
+}
+
+.wave svg {
+    width: 100%;
+    height: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 0 60px;
+    }
+
+    .inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    .ctas {
+        justify-content: center;
+    }
+
+    .badges {
+        justify-content: center;
+    }
+
+    .subtitle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visual {
+        display: none;
+    }
+}

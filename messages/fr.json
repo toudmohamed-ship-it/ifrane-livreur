@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Ifrane Livreur — Livraison Rapide à Ifrane, Maroc",
+    "description": "Service de livraison rapide à Ifrane. Repas, courses, médicaments et colis livrés en 30 minutes. Commandez sur WhatsApp.",
+    "ogTitle": "Ifrane Livreur — Livraison en 30 Minutes à Ifrane",
+    "ogDescription": "Votre service de livraison local à Ifrane, Maroc. Rapide, fiable et abordable."
+  },
+  "nav": {
+    "services": "Services",
+    "howItWorks": "Comment ça marche",
+    "area": "Zone",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "orderWhatsapp": "Commander sur WhatsApp"
+  },
+  "hero": {
+    "badge": "📍 Ifrane, Maroc",
+    "h1": "Livraison Rapide à Ifrane",
+    "h1Highlight": "En 30 Minutes",
+    "subtitle": "Repas, courses, médicaments ou colis — nous livrons partout à Ifrane, 7 jours sur 7.",
+    "ctaWhatsapp": "Commander sur WhatsApp",
+    "ctaCall": "Appeler Maintenant",
+    "trustBadge1": "30 min de livraison",
+    "trustBadge2": "7j/7 disponible",
+    "trustBadge3": "Paiement à la livraison",
+    "visual": {
+      "bubbleText": "En route à Ifrane",
+      "stat1Value": "18 min",
+      "stat1Label": "Délai moyen",
+      "stat2Value": "4.9 ⭐",
+      "stat2Label": "Note clients",
+      "stat3Value": "7j/7",
+      "stat3Label": "Disponible",
+      "deliveryLabel": "Votre livraison en cours…"
+    }
+  },
+  "about": {
+    "h2": "Votre Livreur Local à Ifrane",
+    "p1": "Ifrane Livreur est votre partenaire de livraison de confiance au cœur d'Ifrane. Nous livrons rapidement et en toute sécurité ce dont vous avez besoin — que ce soit un repas chaud, vos courses hebdomadaires, vos médicaments ou un colis important.",
+    "p2": "Basés à Ifrane, nous connaissons chaque rue, chaque quartier. Notre promesse : votre commande livrée en 30 minutes maximum.",
+    "stat1Value": "30 min",
+    "stat1Label": "Délai de livraison",
+    "stat2Value": "7j/7",
+    "stat2Label": "Disponibilité",
+    "stat3Value": "100%",
+    "stat3Label": "Local & fiable"
+  },
+  "services": {
+    "h2": "Nos Services de Livraison",
+    "subtitle": "Tout ce dont vous avez besoin, livré directement chez vous à Ifrane.",
+    "food": {
+      "h3": "Livraison de Repas",
+      "desc": "Restaurants, plats chauds, sandwiches — livrés frais et rapidement depuis vos adresses préférées à Ifrane."
+    },
+    "grocery": {
+      "h3": "Livraison de Courses",
+      "desc": "Fruits, légumes, produits d'épicerie — nous faisons vos courses et les livrons chez vous."
+    },
+    "pharmacy": {
+      "h3": "Livraison de Médicaments",
+      "desc": "Ordonnances et médicaments livrés depuis les pharmacies d'Ifrane directement à votre domicile."
+    },
+    "parcel": {
+      "h3": "Livraison de Colis",
+      "desc": "Documents, petits colis, remises entre particuliers — service rapide et discret à Ifrane."
+    }
+  },
+  "howItWorks": {
+    "h2": "Comment Ça Marche",
+    "subtitle": "Commander une livraison à Ifrane n'a jamais été aussi simple.",
+    "step1Title": "Envoyez un message",
+    "step1Desc": "Contactez-nous sur WhatsApp avec votre adresse et ce que vous souhaitez.",
+    "step2Title": "Confirmez la commande",
+    "step2Desc": "Nous confirmons les détails et le prix. Aucune surprise, aucun formulaire.",
+    "step3Title": "Livré en 30 minutes",
+    "step3Desc": "Votre livreur arrive à votre porte rapidement. Paiement à la livraison."
+  },
+  "whyUs": {
+    "h2": "Pourquoi Choisir Ifrane Livreur ?",
+    "item1": "Livraison en 30 minutes garantie",
+    "item2": "100% local — basé à Ifrane",
+    "item3": "7 jours sur 7, toute la journée",
+    "item4": "Paiement à la livraison",
+    "item5": "Livreur de confiance et professionnel",
+    "item6": "Prix transparents et abordables"
+  },
+  "area": {
+    "h2": "Zone de Livraison à Ifrane",
+    "subtitle": "Nous couvrons toute la ville d'Ifrane et ses quartiers.",
+    "description": "Ifrane Livreur dessert l'ensemble de la ville d'Ifrane, incluant tous les quartiers résidentiels, hôtels, universités et commerces. Notre connaissance locale garantit une livraison rapide où que vous soyez dans Ifrane.",
+    "mapAlt": "Carte de la zone de livraison Ifrane Livreur, Ifrane, Maroc"
+  },
+  "pricing": {
+    "h2": "Tarifs de Livraison",
+    "subtitle": "Prix simples et transparents. Aucune surprise.",
+    "standard": {
+      "title": "Livraison Standard",
+      "price": "À partir de 15 MAD",
+      "desc": "Pour toute livraison dans Ifrane",
+      "features": [
+        "Délai 30 minutes",
+        "Paiement à la livraison",
+        "Suivi WhatsApp en temps réel"
+      ]
+    },
+    "note": "* Le prix final peut varier selon la distance et le type de commande. Demandez un devis sur WhatsApp."
+  },
+  "testimonials": {
+    "h2": "Ce Que Disent Nos Clients",
+    "subtitle": "Des habitants d'Ifrane qui nous font confiance chaque jour.",
+    "t1": {
+      "name": "Fatima Z.",
+      "text": "Service rapide et professionnel. Mes médicaments livrés en 20 minutes. Très satisfaite !",
+      "stars": 5
+    },
+    "t2": {
+      "name": "Ahmed M.",
+      "text": "J'utilise Ifrane Livreur chaque semaine pour mes courses. Toujours ponctuel et fiable.",
+      "stars": 5
+    },
+    "t3": {
+      "name": "Karim B.",
+      "text": "Excellent service ! Le livreur était sympa et ma commande est arrivée bien emballée.",
+      "stars": 5
+    }
+  },
+  "faq": {
+    "h2": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur notre service à Ifrane.",
+    "q1": "Quelle est la zone de livraison à Ifrane ?",
+    "a1": "Nous livrons dans toute la ville d'Ifrane — tous les quartiers, hôtels, résidences universitaires et zones commerciales.",
+    "q2": "Combien coûte une livraison à Ifrane ?",
+    "a2": "Nos tarifs commencent à partir de 15 MAD pour une livraison standard dans Ifrane. Le prix final dépend de la distance et du type de commande.",
+    "q3": "Comment commander une livraison ?",
+    "a3": "Envoyez-nous simplement un message sur WhatsApp avec votre adresse et ce que vous souhaitez. Pas de formulaire, pas d'application.",
+    "q4": "Livrez-vous les médicaments de pharmacie ?",
+    "a4": "Oui, nous livrons les médicaments depuis toutes les pharmacies d'Ifrane. Munissez-vous de votre ordonnance si nécessaire.",
+    "q5": "Quel est votre délai de livraison ?",
+    "a5": "Notre délai standard est de 30 minutes maximum à Ifrane. Dans la plupart des cas, nous livrons encore plus rapidement.",
+    "q6": "Êtes-vous disponibles le week-end ?",
+    "a6": "Oui, nous sommes disponibles 7 jours sur 7, de 08h00 à 22h00."
+  },
+  "cta": {
+    "h2": "Prêt à Commander ?",
+    "subtitle": "Contactez-nous sur WhatsApp en quelques secondes. Livraison en 30 minutes à Ifrane.",
+    "whatsapp": "Commander sur WhatsApp",
+    "call": "Appeler Maintenant"
+  },
+  "footer": {
+    "name": "Ifrane Livreur",
+    "tagline": "Service de livraison rapide à Ifrane, Maroc.",
+    "area": "Zone desservie : Ifrane, Maroc",
+    "hours": "Lun–Dim : 08h00–22h00",
+    "instagram": "Instagram",
+    "copyright": "© 2025 Ifrane Livreur. Tous droits réservés.",
+    "phone": "+212 690 118 288"
+  },
+  "sticky": {
+    "whatsapp": "Commander"
+  }
+}

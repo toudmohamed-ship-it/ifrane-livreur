@@ -1,0 +1,161 @@
+{
+    "meta": {
+        "title": "Ifrane Livreur — Fast Delivery in Ifrane, Morocco",
+        "description": "Fast and reliable delivery service in Ifrane, Morocco. Food, groceries, pharmacy, and parcels delivered in 30 minutes. Order on WhatsApp.",
+        "ogTitle": "Ifrane Livreur — 30-Minute Delivery in Ifrane",
+        "ogDescription": "Your local delivery service in Ifrane, Morocco. Fast, reliable and affordable."
+    },
+    "nav": {
+        "services": "Services",
+        "howItWorks": "How It Works",
+        "area": "Area",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "orderWhatsapp": "Order on WhatsApp"
+    },
+    "hero": {
+        "badge": "📍 Ifrane, Morocco",
+        "h1": "Fast Delivery in Ifrane",
+        "h1Highlight": "In 30 Minutes",
+        "subtitle": "Food, groceries, pharmacy, or parcels — we deliver anywhere in Ifrane, 7 days a week.",
+        "ctaWhatsapp": "Order on WhatsApp",
+        "ctaCall": "Call Now",
+        "trustBadge1": "30-min delivery",
+        "trustBadge2": "7 days available",
+        "trustBadge3": "Cash on delivery",
+        "visual": {
+            "bubbleText": "On the way in Ifrane",
+            "stat1Value": "18 min",
+            "stat1Label": "Average time",
+            "stat2Value": "4.9 ⭐",
+            "stat2Label": "Customer rating",
+            "stat3Value": "24/7",
+            "stat3Label": "Available",
+            "deliveryLabel": "Your delivery in progress..."
+        }
+    },
+    "about": {
+        "h2": "Your Local Delivery Service in Ifrane",
+        "p1": "Ifrane Livreur is your trusted delivery partner at the heart of Ifrane. We quickly and safely deliver whatever you need — a hot meal, your weekly groceries, your medications, or an important parcel.",
+        "p2": "Based in Ifrane, we know every street and every neighborhood. Our promise: your order delivered in a maximum of 30 minutes.",
+        "stat1Value": "30 min",
+        "stat1Label": "Delivery time",
+        "stat2Value": "7/7",
+        "stat2Label": "Availability",
+        "stat3Value": "100%",
+        "stat3Label": "Local & reliable"
+    },
+    "services": {
+        "h2": "Our Delivery Services",
+        "subtitle": "Everything you need, delivered directly to your door in Ifrane.",
+        "food": {
+            "h3": "Food Delivery",
+            "desc": "Restaurants, hot meals, sandwiches — delivered fresh and fast from your favorite spots in Ifrane."
+        },
+        "grocery": {
+            "h3": "Grocery Delivery",
+            "desc": "Fruits, vegetables, pantry staples — we shop for you and deliver straight to your home."
+        },
+        "pharmacy": {
+            "h3": "Pharmacy Delivery",
+            "desc": "Prescriptions and medications delivered from Ifrane pharmacies directly to your door."
+        },
+        "parcel": {
+            "h3": "Parcel Delivery",
+            "desc": "Documents, small packages, person-to-person drops — fast and discreet service across Ifrane."
+        }
+    },
+    "howItWorks": {
+        "h2": "How It Works",
+        "subtitle": "Ordering a delivery in Ifrane has never been easier.",
+        "step1Title": "Send a message",
+        "step1Desc": "Contact us on WhatsApp with your address and what you need.",
+        "step2Title": "Confirm your order",
+        "step2Desc": "We confirm the details and price. No surprises, no forms.",
+        "step3Title": "Delivered in 30 minutes",
+        "step3Desc": "Your rider arrives at your door fast. Payment on delivery."
+    },
+    "whyUs": {
+        "h2": "Why Choose Ifrane Livreur?",
+        "item1": "30-minute delivery guaranteed",
+        "item2": "100% local — based in Ifrane",
+        "item3": "7 days a week, all day",
+        "item4": "Cash on delivery",
+        "item5": "Trusted and professional rider",
+        "item6": "Transparent and affordable prices"
+    },
+    "area": {
+        "h2": "Delivery Area in Ifrane",
+        "subtitle": "We cover the entire city of Ifrane and its neighborhoods.",
+        "description": "Ifrane Livreur serves all of Ifrane city, including residential neighborhoods, hotels, universities, and commercial areas. Our local knowledge guarantees fast delivery wherever you are in Ifrane.",
+        "mapAlt": "Ifrane Livreur delivery area map, Ifrane, Morocco"
+    },
+    "pricing": {
+        "h2": "Delivery Pricing",
+        "subtitle": "Simple and transparent pricing. No surprises.",
+        "standard": {
+            "title": "Standard Delivery",
+            "price": "Starting from 15 MAD",
+            "desc": "For any delivery within Ifrane",
+            "features": [
+                "30-minute delivery",
+                "Cash on delivery",
+                "Real-time WhatsApp tracking"
+            ]
+        },
+        "note": "* Final price may vary based on distance and order type. Ask for a quote on WhatsApp."
+    },
+    "testimonials": {
+        "h2": "What Our Customers Say",
+        "subtitle": "Ifrane residents who trust us every day.",
+        "t1": {
+            "name": "Fatima Z.",
+            "text": "Fast and professional service. My medications delivered in 20 minutes. Very satisfied!",
+            "stars": 5
+        },
+        "t2": {
+            "name": "Ahmed M.",
+            "text": "I use Ifrane Livreur every week for my groceries. Always punctual and reliable.",
+            "stars": 5
+        },
+        "t3": {
+            "name": "Karim B.",
+            "text": "Excellent service! The rider was friendly and my order arrived well packaged.",
+            "stars": 5
+        }
+    },
+    "faq": {
+        "h2": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about our service in Ifrane.",
+        "q1": "What areas do you deliver in Ifrane?",
+        "a1": "We deliver across all of Ifrane city — all neighborhoods, hotels, university residences, and commercial zones.",
+        "q2": "How much does delivery cost in Ifrane?",
+        "a2": "Our rates start from 15 MAD for a standard Ifrane delivery. The final price depends on distance and order type.",
+        "q3": "How do I place a delivery order?",
+        "a3": "Simply send us a WhatsApp message with your address and what you need. No forms, no app required.",
+        "q4": "Do you deliver pharmacy items?",
+        "a4": "Yes, we deliver medications from all pharmacies in Ifrane. Have your prescription ready if required.",
+        "q5": "How fast is your delivery?",
+        "a5": "Our standard delivery time is 30 minutes maximum within Ifrane. In most cases, we deliver even faster.",
+        "q6": "Are you available on weekends?",
+        "a6": "Yes, we're available 7 days a week, from 08:00 to 22:00."
+    },
+    "cta": {
+        "h2": "Ready to Order?",
+        "subtitle": "Contact us on WhatsApp in seconds. 30-minute delivery in Ifrane.",
+        "whatsapp": "Order on WhatsApp",
+        "call": "Call Now"
+    },
+    "footer": {
+        "name": "Ifrane Livreur",
+        "tagline": "Fast delivery service in Ifrane, Morocco.",
+        "area": "Service area: Ifrane, Morocco",
+        "hours": "Mon–Sun: 08:00–22:00",
+        "instagram": "Instagram",
+        "copyright": "© 2025 Ifrane Livreur. All rights reserved.",
+        "phone": "+212 690 118 288"
+    },
+    "sticky": {
+        "whatsapp": "Order"
+    }
+}

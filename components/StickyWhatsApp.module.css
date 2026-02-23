@@ -1,0 +1,43 @@
+.sticky {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--green-wa);
+    color: var(--white);
+    border-radius: var(--radius-full);
+    padding: 14px 20px;
+    box-shadow: var(--shadow-wa);
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+}
+
+.sticky:hover {
+    transform: scale(1.04) translateY(-2px);
+    box-shadow: 0 8px 32px rgba(37, 211, 102, 0.55);
+}
+
+.sticky:active {
+    transform: scale(0.97);
+}
+
+html[dir="rtl"] .sticky {
+    right: auto;
+    left: 24px;
+}
+
+@media (max-width: 480px) {
+    .sticky {
+        padding: 14px;
+        border-radius: 50%;
+    }
+
+    .label {
+        display: none;
+    }
+}

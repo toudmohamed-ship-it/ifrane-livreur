@@ -1,0 +1,131 @@
+.footer {
+    background: var(--dark-2);
+    color: rgba(255, 255, 255, 0.75);
+    padding: 56px 0 0;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 48px;
+    padding-bottom: 48px;
+}
+
+.logoWrap {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.logoImg {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+.tagline {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 280px;
+}
+
+.nap {
+    font-size: 0.85rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.phone {
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.phone:hover {
+    color: var(--red);
+}
+
+.hours,
+.area {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.65);
+    transition: color 0.15s;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--white);
+}
+
+.langLabel {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.langSwitcher {
+    display: flex;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-full);
+    padding: 4px;
+    width: fit-content;
+}
+
+.langBtn {
+    padding: 6px 14px;
+    border-radius: var(--radius-full);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.15s;
+    text-decoration: none;
+}
+
+.langActive {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--white);
+}
+
+.langBtn:hover:not(.langActive) {
+    color: var(--white);
+}
+
+.bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 20px 0;
+}
+
+.bottom p {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
